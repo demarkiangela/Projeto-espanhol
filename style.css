@@ -1,11 +1,60 @@
-body {background-color:darkgrey;}
-h1 {text-align: center; font-size: 50px; color: darkolivegreen;}
-h2 {text-align: center; text-decoration: underline; color: darkgreen ;}
-p { text-indent: 40px; text-align: justify;}
-.bandeira {width: 10%;} 
-.flag {text-align: center;}
-header{width:100%;top:0;left:0;height:45px;background-color:darkslategray;}
-nav li{display:inline;margin-left:150px;font-size:large;font-style:italic;} 
-img {margin: 10px; }
-.imgautor{margin-left:30px; width:25%;display: inline-flex;}
-.textobiografia{display:inline;}
+body {
+    background-color: darkgrey;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: darkolivegreen;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: darkgreen;
+}
+
+p {
+    text-indent: 40px;
+    text-align: justify;
+}
+
+.bandeira {
+    width: 10%;
+}
+
+.flag {
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 45px;
+    background-color: darkslategray;
+}
+
+nav li {
+    display: inline;
+    margin-left: 150px;
+    font-size: large;
+    font-style: italic;
+}
+
+img {
+    margin: 10px;
+}
+
+.imgautor {
+    margin-left: 30px;
+    display: inline;
+}
+
+.textobiografia {
+    display: inline;
+    position: absolute;
+    top: 120px;
+    left: 260px;
+    padding-right: 25px;
+}
