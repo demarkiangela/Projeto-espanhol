@@ -34,12 +34,15 @@ header {
     height: 45px;
     background-color: darkslategray;
 }
-
-nav li {
-    display: inline;
+nav li{ display: inline-block;}
+nav a{ display: inline-block;
     margin-left: 150px;
-    font-size: large;
-    font-style: italic;
+    font-size: medium;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 12px;
+    color: aliceblue;
 }
 
 img {
@@ -58,3 +61,15 @@ img {
     left: 260px;
     padding-right: 25px;
 }
+
+nav a:hover { color: black;
+             font-size: 15px;
+            text-decoration: underline;}
+
+.avatar {display: inline-block;}
+#avatar{ display: inline-block;
+         height: 250px;}
+        
+#logocolegio {display: inline-block;
+height: 180px;}
+
