@@ -68,8 +68,14 @@ nav a:hover { color: black;
 
 .avatar {display: inline-block;}
 #avatar{ display: inline-block;
-         height: 250px;}
+         height: 250px;
+        position: relative; bottom: -15px;
+    margin-left: 50px;}
         
 #logocolegio {display: inline-block;
-height: 180px;}
+height: 180px;
+position: relative;
+bottom: 240px; left: 70%;}
 
+.textocapa { display: inline; font-size: large;
+position: absolute; top: 320px; left: 370px; padding-right: 30px;}
